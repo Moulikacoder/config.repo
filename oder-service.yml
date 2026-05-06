@@ -1,0 +1,12 @@
+spring:
+  applictaion:
+     name: oder-service
+
+  databasource:
+   url: jdbc:mysql://localhost:3036/oder_master
+   driverClassName: com.mysql.cj.jdbc.Driver
+jpa:
+  hibernate:
+  ddl-auto: none
+
+show-sql: false
